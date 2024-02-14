@@ -1,2 +1,1 @@
-# file
-file
+# 1 so bai tap minh lam duoc 
