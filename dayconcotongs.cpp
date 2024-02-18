@@ -14,7 +14,9 @@ int main(){
 		for (int j = s;j>=a[i];j--){
 			if (dp[j-a[i]]==1 && dp[j] == 0){
 				dp[j] = 1;
-				vet[j] = i;
+				if (vet[j]==0){
+					vet[j] = i;
+				}
 			}
 		}
 	if(dp[s]==0) cout<<"NO";
